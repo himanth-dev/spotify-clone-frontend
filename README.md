@@ -19,12 +19,13 @@ This project is deployed using GitHub Pages: `https://himanth-dev.github.io/spot
 2. Open `index.html` in your browser.
 
 ## Folder Structure
+```
 project/
 ├── index.html
 ├── style.css
 └── assets/
     └── images and icons used in UI
-
+```
 
 ## Notes
 This is a front-end clone intended for UI practice. No authentication or music streaming backend is implemented.
