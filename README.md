@@ -20,9 +20,10 @@ This project is deployed using GitHub Pages: `https://himanth-dev.github.io/spot
 
 ## Folder Structure
 spotify-clone-frontend/
-|─ index.html
-|─ style.css
-|─ access/ # images used in the project
+├─ index.html
+├─ style.css
+├─ access/ # images used in the project
+└─ preview/ # screenshots (optional)
 
 ## Notes
 This is a front-end clone intended for UI practice. No authentication or music streaming backend is implemented.
