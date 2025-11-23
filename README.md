@@ -3,7 +3,7 @@
 A responsive Spotify-like UI built with HTML and CSS to practice frontend layouting and UI components.
 
 ## Live Demo
-This project is deployed using GitHub Pages: `https://himanth-dev.github.io/spotify-clone-frontend`.
+This project is deployed using GitHub Pages: `https://himanth-dev.github.io/spotify-clone-frontend/`.
 
 ## Features
 - Responsive layout with sidebar, playlist area, and player controls  
