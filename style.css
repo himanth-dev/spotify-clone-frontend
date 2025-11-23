@@ -1,0 +1,351 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+    background-color: black;
+}
+
+.side-bar{
+    background-color: black;
+    width: 60vh;
+    margin-right: 0.5rem;
+
+}
+
+.nav-bar{
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+    align-content: center;
+    line-height: 2.5;
+    background-color: #121212;
+    margin: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.nav-option{
+    display: flex;
+    opacity: 0.7;
+}
+
+.nav-option a{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 0.3rem;
+    
+}
+
+.nav-option i{
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Library css */
+
+.library{
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    background-color: #121212;
+    height: 100%;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 0.75rem; 
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.options:hover{
+    opacity: 1;
+}
+
+.lib-option{
+    opacity: 0.7;
+}
+
+.lib-option:hover{
+    opacity: 1;
+}
+
+.lib-option img{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.icons{
+    display: flex;
+}
+
+.icons i{
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+.icons i:hover{
+    opacity: 1;
+}
+
+
+
+/* Library css */
+
+.box{
+    background-color: #232323;
+    color: white;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0.75rem;
+    padding: 1rem;
+}
+
+.box p{
+    margin-bottom: 1.6rem;
+}
+
+.box .title{
+    font-weight: 600;
+}
+
+.content{
+    background-color: #121212;
+    width: 100%;
+    margin-top: 0.57rem;
+    border-radius: 0.75rem;
+    overflow: auto;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.content::-webkit-scrollbar{
+    appearance: none;
+    width: 0.2rem;
+}
+
+.content::-webkit-scrollbar-thumb{
+    background-color: #FFFFFF4C;
+
+    border-radius: 100px;
+}
+
+.sticky-navbar{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+
+.sticky-navbar img{
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: .2rem;
+}
+
+.arrows{
+    margin-right: 0.75rem;
+}
+
+.more-options{
+    margin-right: 1rem;
+}
+
+.icon{
+    background-color: black;
+}
+.icon i{
+    position: relative;
+    top: 2px;
+}
+
+.nav-item{
+    margin-right: 0.5rem;
+}
+
+/* cards css */
+
+.card{
+    background-color: #232323;
+    width: 155px;
+    padding: 1.2rem;
+    padding-top: 0.3rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card .title{
+    font-weight: 600;
+}
+
+.card p{
+    font-size: .8rem;
+    opacity: 0.8;
+}
+
+.card-elm{
+    margin-top: .7rem;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.2rem 0rem 1.5rem 0rem;
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    height: 40%;
+    width: 80%;
+    border-top: solid white;
+    opacity: .4;
+}
+
+/* cards css */
+
+
+
+.play-bar{
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.player-controls-icon{
+    height: 16px;
+    margin-right: 1rem;
+    opacity: 0.3;
+}
+
+.playback-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.4;
+}
+
+.progress-bar{
+    width: 75%;
+    appearance: none;
+    background-color: transparent;
+    overflow:visible;
+}
+
+.progress-bar::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+   overflow: visible;
+   border-radius: 50%;
+   position: relative;;
+   top: -6px;
+}
+
+.play-bar .cover{
+    height: 100%;
+    width: 20%;
+
+}
+
+.cover img{
+    width: 100%;
+}
+
+.play-bar .title{
+    height: 100%;
+    width: 70%;
+    background-color: green;
+}
+
+.play-bar .plus{
+    height: 100%;
+    width: 10%;
+    background-color: yellow;
+}
+
+.album{
+    width: 25%;
+    display: flex;
+}
+
+.player{
+    width: 50%;
+}
+
+.controls{
+    width: 25%;
+}
+
+.side-bar a{
+    text-decoration: none;
+    color: white;
+}
+
+i{
+    color: white;
+}
+
+.badge{
+    background-color: white;
+    color: black;
+    padding: 0.5rem .75rem 0.5rem 0.75rem;
+    border-radius: 1rem;
+    font-weight: 600;
+}
+
+.dark-badge{
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 1000px){
+    .hide{
+        display: none;
+    }
+}
